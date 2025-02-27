@@ -35,3 +35,12 @@ export interface CyberdeckUtility {
 }
 
 export type UtilityCollection = Record<string, CyberdeckUtility>;
+
+export interface MatrixOperation {
+    test: string;
+    description: string;
+    utility: string;
+    action: String;
+}
+
+export type OperationCollection = Record<string, MatrixOperation>;
