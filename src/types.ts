@@ -26,3 +26,12 @@ export interface DeckData {
 }
 
 export type DeckCollection = Record<string, DeckData>;
+
+export interface CyberdeckUtility {
+    target_operation: string;
+    multiplier : number;
+    description: string;
+    type: string;
+}
+
+export type UtilityCollection = Record<string, CyberdeckUtility>;

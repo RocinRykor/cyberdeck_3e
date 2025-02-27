@@ -146,14 +146,14 @@ button {
   color: #ff003c;
 }
 
-.deck-grid {
+.item-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1.5rem;
   padding: 0;
 }
 
-.deck-card {
+.item-card {
   background: rgba(0, 0, 0, 0.5);
   border: 1px solid #00ff9d;
   padding: 1rem;
@@ -161,7 +161,7 @@ button {
   transition: transform 0.3s;
 }
 
-.deck-card:hover {
+.item-card:hover {
   transform: translateY(-3px);
   border-color: #ff003c;
 }

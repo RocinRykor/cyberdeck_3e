@@ -7,11 +7,11 @@ const DeckList = () => {
 
     return (
         <div className="deck-list">
-            <h2>Available Cyberdecks</h2>
-            <ul className="deck-grid">
+            <h2>Standard Cyberdecks</h2>
+            <ul className="item-grid">
                 {Object.entries(deckData).map(([key, deck]) => (
                     <Link to={`/deck/${encodeURIComponent(key)}`}>
-                        <li key={key} className="deck-card">
+                        <li key={key} className="item-card">
                             <span className="deck-name">{deck.display_name}</span>
                         </li>
                     </Link>
